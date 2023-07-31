@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --text: 1.5rem;  /* creating vriable */
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-section{
+    min-height: 100vh;
+    background: linear-gradient(black, transparent),
+    url('https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    display: flex;            /* side by side display*/
+    justify-content: space-between;  /* Space b/w Brand Name and navbar menu*/
+    align-items: center;
+    height: 10vh;
+    padding: 0rem 2rem;
+    color: aquamarine;
+}
+
+.navbar ul{
+    list-style: none;  /* TO remove  the dot from Nav options*/
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-left: 2rem;
+    font-size: var(--text);  /*importing varialble*/
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+    
+}
+
+.hero-text{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color: aqua;
+}
+
+.hero-text h2{
+    font-size: 400%;
+
+}
+
+.hero-text p{
+    font-style: italic;
+    font-size: 250%;
+    color: skyblue;
+}
+
+.hero-text a{
+    font-size: 150%;
+    color: white;
+    align-items: center;
+    font-weight: 1000;
+    background-color: #95a5a6;
+    text-decoration: none;
+}
